@@ -45,12 +45,13 @@ body {
 }
 
 #button {
-    background-color: #f4511e;
+    background-color: #0a66c2;
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 13px 25px;
     text-align: center;
     font-size: 16px;
+    font-weight: bold;
     margin: 4px 2px;
     opacity: 0.6;
     transition: 0.3s;
@@ -61,4 +62,28 @@ body {
 
 #button:hover {
     opacity: 1
+}
+
+.example {
+    color: #FFF;
+    text-align: justify;
+}
+
+.example-item {
+    width: 25%;
+    height: 10px;
+    display: inline-block;
+    content: '';
+}
+
+.example-item_first {
+    /* background-color: #FAA116; */
+}
+
+.example-item_second {
+    /* background-color: #57C7C3; */
+}
+
+.example-item_third {
+    /* background-color: #3B97D3; */
 }
