@@ -3,7 +3,8 @@
 
 <head>
     <title>Meus Outros blocosos</title>
-    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen, print" />
+
 </head>
 
 <body>
@@ -122,47 +123,36 @@
 
     <!-- 
     <button class="button">Hover Over Me</button> -->
+    <div id="notprint">
 
-    <div id="bots">
 
-        <a href="https://www.linkedin.com/in/rhyan-inacio/" target="_blank">
-            <button id="button"> 
+
+        <div id="bots">
+
+            <a href="https://www.linkedin.com/in/rhyan-inacio/" target="_blank">
+                <button id="button"> 
                 LinkedIn 
             </button>
-        </a>
-        <a href="https://github.com/SananFoisi" target="_blank">
-            <button id="button"> 
+            </a>
+            <a href="https://github.com/SananFoisi" target="_blank">
+                <button id="button"> 
                 GitHub 
             </button>
-        </a>
+            </a>
 
-        <a href="mailto:rhyanalves68@gmail.com?subject='Olá Rhyan'" target="_blank">
-            <button id="button"> 
+            <a href="mailto:rhyanalves68@gmail.com?subject='Olá Rhyan'" target="_blank">
+                <button id="button"> 
                 Gmail 
             </button>
-        </a>
+            </a>
+
+        </div>
+
 
     </div>
-    <a class="hide-on-mobile" href="javascript:printPage();"><i class="fa fa-print"></i> Print Page</a>
-
-    <script>
-        function printPage() {
-            window.print();
-        }
-
-        function readCookie(name) {
-            var nameEQ = name + "=";
-            var ca = document.cookie.split(';');
-            for (var i = 0; i < ca.length; i++) {
-                var c = ca[i];
-                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-            }
-            return null;
-        }
-    </script>
-
 
 </body>
+
+
 
 </html>
