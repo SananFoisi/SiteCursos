@@ -123,34 +123,44 @@
     <!-- 
     <button class="button">Hover Over Me</button> -->
 
-    <a href="https://www.linkedin.com/in/rhyan-inacio/" target="_blank"><button id="button"> LinkedIn </button> </a>
-    <a href="https://github.com/SananFoisi" target="_blank"><button id="button"> GitHub </button> </a>
+    <div id="bots">
 
-
-    <ul class="example">
-        <li class="example-item example-item_first">
-            <a href="https://github.com/SananFoisi" target="_blank">
-                <button id="button">
-                    GitHub
-                </button>
-            </a>
-        </li>
-        <li class="example-item example-item_second">
-            <a href="https://github.com/SananFoisi" target="_blank">
-                <button id="button">
-                    GitHub
-                </button>
-            </a>
-        </li>
-        <li class="example-item example-item_third">
-            <a href="https://github.com/SananFoisi" target="_blank">
-                <button id="button">
-                GitHub
+        <a href="https://www.linkedin.com/in/rhyan-inacio/" target="_blank">
+            <button id="button"> 
+                LinkedIn 
             </button>
-            </a>
-        </li>
-    </ul>
+        </a>
+        <a href="https://github.com/SananFoisi" target="_blank">
+            <button id="button"> 
+                GitHub 
+            </button>
+        </a>
 
+        <a href="mailto:rhyanalves68@gmail.com?subject='Olá Rhyan'" target="_blank">
+            <button id="button"> 
+                Gmail 
+            </button>
+        </a>
+
+    </div>
+    <a class="hide-on-mobile" href="javascript:printPage();"><i class="fa fa-print"></i> Print Page</a>
+
+    <script>
+        function printPage() {
+            window.print();
+        }
+
+        function readCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+    </script>
 
 
 </body>
