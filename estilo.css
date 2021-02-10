@@ -54,8 +54,8 @@ body {
     text-align: center;
 }
 
-#button {
-    background-color: #0a66c2;
+#b1 {
+    background-color: rgb(10, 102, 194);
     border: none;
     color: white;
     padding: 1% 1%;
@@ -70,6 +70,46 @@ body {
     cursor: pointer;
 }
 
-#button:hover {
+#b2 {
+    background-color: rgb(240, 246, 252);
+    border: none;
+    color: black;
+    padding: 1% 1%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 1% 1%;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#b3 {
+    background-color: rgb(217, 48, 37);
+    border: none;
+    color: white;
+    padding: 1% 1%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 1% 1%;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#b1:hover {
+    opacity: 1
+}
+
+#b2:hover {
+    opacity: 1
+}
+
+#b3:hover {
     opacity: 1
 }
