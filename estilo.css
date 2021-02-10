@@ -54,52 +54,77 @@ body {
     text-align: center;
 }
 
+#btnadd {
+    height: 32px;
+    padding-left: 36px;
+    padding-right: 10px;
+    background: #ff9900 url("http://placehold.it/16x16") no-repeat 10px center;
+}
+
 #b1 {
-    background-color: rgb(10, 102, 194);
-    border: none;
-    color: white;
-    padding: 1% 1%;
-    text-align: center;
+    /* background-color: rgb(10, 102, 194); */
+    /**/
+    background: rgb(255, 255, 255) url("icon-btn/logotipo-linkedin.png") no-repeat 10px center;
+    height: 32px;
+    padding-left: 36px;
+    padding-right: 10px;
+    /**/
+    border: 2px solid #000000;
+    color: rgb(0, 0, 0);
+    /* padding: 1% 1% */
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
     font-size: 16px;
     font-weight: bold;
     margin: 1% 1%;
-    opacity: 0.6;
-    transition: 0.3s;
-    display: inline-block;
+    text-align: center;
     text-decoration: none;
-    cursor: pointer;
+    display: inline-block;
 }
 
 #b2 {
-    background-color: rgb(240, 246, 252);
-    border: none;
-    color: black;
-    padding: 1% 1%;
-    text-align: center;
+    /* background-color: rgb(240, 246, 252); */
+    /**/
+    background: rgb(255, 255, 255) url("icon-btn/logotipo-github.png") no-repeat 10px center;
+    height: 32px;
+    padding-left: 36px;
+    padding-right: 10px;
+    /**/
+    border: 2px solid #000000;
+    color: rgb(0, 0, 0);
+    /* padding: 1% 1% */
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
     font-size: 16px;
     font-weight: bold;
     margin: 1% 1%;
-    opacity: 0.6;
-    transition: 0.3s;
-    display: inline-block;
+    text-align: center;
     text-decoration: none;
-    cursor: pointer;
+    display: inline-block;
 }
 
 #b3 {
-    background-color: rgb(217, 48, 37);
-    border: none;
-    color: white;
-    padding: 1% 1%;
-    text-align: center;
+    /* background-color: rgb(217, 48, 37); */
+    /**/
+    background: rgb(255, 255, 255) url("icon-btn/logotipo-gmail.png") no-repeat 10px center;
+    height: 32px;
+    padding-left: 36px;
+    padding-right: 10px;
+    /**/
+    border: 2px solid #000000;
+    color: rgb(0, 0, 0);
+    /* padding: 1% 1% */
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
     font-size: 16px;
     font-weight: bold;
     margin: 1% 1%;
-    opacity: 0.6;
-    transition: 0.3s;
-    display: inline-block;
+    text-align: center;
     text-decoration: none;
-    cursor: pointer;
+    display: inline-block;
 }
 
 #b1:hover {
