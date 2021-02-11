@@ -54,17 +54,18 @@ body {
     text-align: center;
 }
 
-#btnadd {
+
+/* #btnadd {
     height: 32px;
     padding-left: 36px;
     padding-right: 10px;
     background: #ff9900 url("http://placehold.it/16x16") no-repeat 10px center;
-}
+} */
 
 #b1 {
     /* background-color: rgb(10, 102, 194); */
     /**/
-    background: rgb(255, 255, 255) url("icon-btn/logotipo-linkedin.png") no-repeat 10px center;
+    background: rgb(255, 255, 255) url("../images/icon-btn/logotipo-linkedin.png") no-repeat 10px center;
     height: 32px;
     padding-left: 36px;
     padding-right: 10px;
@@ -86,7 +87,7 @@ body {
 #b2 {
     /* background-color: rgb(240, 246, 252); */
     /**/
-    background: rgb(255, 255, 255) url("icon-btn/logotipo-github.png") no-repeat 10px center;
+    background: rgb(255, 255, 255) url("../images/icon-btn/logotipo-github.png") no-repeat 10px center;
     height: 32px;
     padding-left: 36px;
     padding-right: 10px;
@@ -108,7 +109,7 @@ body {
 #b3 {
     /* background-color: rgb(217, 48, 37); */
     /**/
-    background: rgb(255, 255, 255) url("icon-btn/logotipo-gmail.png") no-repeat 10px center;
+    background: rgb(255, 255, 255) url("../images/icon-btn/logotipo-gmail.png") no-repeat 10px center;
     height: 32px;
     padding-left: 36px;
     padding-right: 10px;
